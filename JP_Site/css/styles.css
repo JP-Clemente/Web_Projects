@@ -1,0 +1,177 @@
+body {
+	margin: 0;
+	text-align: center;
+	font-family: "Raleway", sans-serif;
+}
+p {
+	text-align: justify;
+	text-justify: inter-word;
+	margin: 10px;
+}
+
+h2 {
+	font-weight: 400;
+	font-size: 1.56rem;
+	font-family: "Montserrat", sans-serif;
+	text-align: center;
+}
+h3 {
+	font-weight: 400;
+	font-size: 1.25rem;
+	font-family: "Montserrat", sans-serif;
+}
+hr {
+	width: 60%;
+	border: 7px solid;
+	border-left-color: #252b2a;
+	border-right-color: #252b2a;
+	border-top-color: #24e4bc;
+	border-bottom-color: #24e4bc;
+	margin-bottom: 20px;
+	margin-top: 20px;
+}
+.topmenu {
+	background-color: #161a19;
+	overflow: hidden;
+	position: fixed;
+	top: 0;
+	width: 100%;
+	z-index: 1;
+}
+/* Links inside the navbar */
+.topmenu a {
+	float: left;
+	display: block;
+	color: #f2f2f2;
+	text-align: center;
+	padding: 14px 20px;
+	text-decoration: none;
+}
+/* Change background on mouse-over */
+.topmenu a:hover {
+	background: #ddd;
+	color: black;
+}
+.top-container {
+	margin-top: 30px;
+	background-color: #252b2a;
+	color: white;
+}
+.maintitle {
+	font-size: 3.45rem;
+	font-weight: 500;
+	margin: 0 auto 0 auto;
+	width: 500px;
+	font-family: "Jura", sans-serif;
+	padding-top: 30px;
+}
+.mainsubtitle {
+	font-weight: normal;
+	font-size: 1.56rem;
+	font-family: "Montserrat", sans-serif;
+}
+.welcomeh2 {
+	font-weight: normal;
+	margin: 0;
+	padding-top: 40px;
+	font-size: 1.56rem;
+	font-family: "Montserrat", sans-serif;
+	text-align: center;
+	position: relative;
+	bottom: 20px;
+}
+.gif-seta {
+	width: 5%;
+	height: 5%;
+	margin: 0;
+	position: relative;
+	bottom: 45px;
+}
+.general-icon {
+	position: relative;
+	height: 64px;
+	width: 64px;
+}
+.jplogo {
+	margin: 0 auto 0 auto;
+	width: 28%;
+	height: 28%;
+	position: relative;
+}
+.presentation-paragraph {
+	margin: auto;
+	width: 50%;
+}
+.middle-container {
+	background-color: #252b2a;
+	color: white;
+	text-align: center;
+	margin: 0;
+	padding-bottom: 40px;
+}
+.skills {
+	background-color: #252b2a;
+}
+.skill-row {
+	margin: auto;
+	width: 50%;
+}
+.bottom-container {
+	color: white;
+	background-color: #252b2a;
+	margin: 0;
+}
+.btn {
+	margin-top: 20px;
+}
+.contact-me {
+	margin: auto;
+	width: 50%;
+}
+.btn:link,
+.btn:visited {
+	background-color: #f44336;
+	color: white;
+	padding: 15px 25px;
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+}
+
+.btn:hover,
+.btn:active {
+	background-color: red;
+}
+.small-icon {
+	display: inline-block;
+	position: relative;
+	width: 28px;
+	height: 28px;
+}
+.footerlinks-div {
+	padding-top: 20px;
+	padding-bottom: 20px;
+}
+.footer-link:link,
+.footer-link:visited {
+	text-align: center;
+	text-decoration: none;
+	position: relative;
+	color: #ddd;
+	font-size: 1.15rem;
+	display: inline-block;
+}
+.footer-link:hover,
+.footer-link:active {
+	color: #24e4bc;
+}
+.copyright-text {
+	margin: 0;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	text-align: center;
+}
+
+/*#252b2a cinza escuro*/
+/* #161a19 cinza mais escuro*?
+/*#24e4bc ciano*/
